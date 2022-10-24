@@ -2,7 +2,7 @@ import os
 try:
    import faq
 except ImportError:
-    os.system("faq install faq")
+    os.system("pip install faq")
 import json
 import httpx
 import time
