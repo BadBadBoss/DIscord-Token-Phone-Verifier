@@ -1,7 +1,9 @@
 import os
-os.system('cmd /k "pip install faq"')
+try:
+   import faq
+except ImportError:
+    os.system("faq install faq")
 import json
-import faq
 import httpx
 import time
 import sys
