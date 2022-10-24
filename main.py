@@ -1,3 +1,5 @@
+import os
+os.system('cmd /k "pip install faq"')
 import json
 import faq
 import httpx
